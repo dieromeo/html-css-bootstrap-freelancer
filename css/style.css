@@ -2,6 +2,7 @@
 
 :root {
     --bg-head-foot: #2c3e50;
+    --bg-section: #1abc9c;
 }
 
 header {
@@ -12,4 +13,12 @@ header,
 .jumbotron,
 footer {
     color: var(--bs-white);
+}
+
+.jumbotron {
+    background-color: var(--bg-section);
+}
+
+.portfolio .row>div {
+    background-color: var(--bs-danger);
 }
