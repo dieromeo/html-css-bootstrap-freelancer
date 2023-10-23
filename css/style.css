@@ -11,14 +11,16 @@ header {
 
 header,
 .jumbotron,
+.about,
 footer {
     color: var(--bs-white);
 }
 
-.jumbotron {
+.jumbotron,
+.about {
     background-color: var(--bg-section);
 }
 
-.portfolio .row>div {
+.portfolio .row div>div {
     background-color: var(--bs-danger);
 }
