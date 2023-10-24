@@ -4,13 +4,10 @@
 @import url('_partials/custom.css');
 @import url('_partials/common.css');
 
-/* header */
+/*portfolio */
 
-
-
-/* jumbotron */
-.jumbotron i {
-    padding: 0 15px;
+.portfolio {
+    color: var(--bg-head-foot);
 }
 
 footer {
