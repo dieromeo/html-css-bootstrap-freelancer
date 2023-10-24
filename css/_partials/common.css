@@ -1,0 +1,19 @@
+header {
+    background-color: var(--bg-head-foot);
+}
+
+header,
+.jumbotron,
+.about,
+footer {
+    color: var(--bs-white);
+}
+
+.jumbotron,
+.about {
+    background-color: var(--bg-section);
+}
+
+ul {
+    list-style: none;
+}

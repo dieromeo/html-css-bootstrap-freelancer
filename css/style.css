@@ -1,31 +1,19 @@
-/* variables */
+/* import */
 
-:root {
-    --bg-head-foot: #2c3e50;
-    --bg-section: #1abc9c;
-    --bg-footer: #3a546d;
-    --bg-copyright: #2c3e50;
+@import url('_partials/variable.css');
+@import url('_partials/custom.css');
+@import url('_partials/common.css');
+
+/* header */
+
+
+
+/* jumbotron */
+.jumbotron i {
+    font-size: 1.875rem;
+    padding: 0 15px;
 }
 
-body {
-    overflow-x: hidden;
-}
-
-header {
-    background-color: var(--bg-head-foot);
-}
-
-header,
-.jumbotron,
-.about,
-footer {
-    color: var(--bs-white);
-}
-
-.jumbotron,
-.about {
-    background-color: var(--bg-section);
-}
 
 .portfolio .row div>div {
     background-color: var(--bs-danger);

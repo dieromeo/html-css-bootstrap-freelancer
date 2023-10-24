@@ -1,0 +1,10 @@
+.dr-bt-line-font::before,
+.dr-bt-line-font::after {
+    content: '';
+    width: 10%;
+    height: 4px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: currentColor;
+}
