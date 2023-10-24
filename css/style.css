@@ -10,13 +10,7 @@
 
 /* jumbotron */
 .jumbotron i {
-    font-size: 1.875rem;
     padding: 0 15px;
-}
-
-
-.portfolio .row div>div {
-    background-color: var(--bs-danger);
 }
 
 footer {
