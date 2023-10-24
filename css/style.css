@@ -28,6 +28,16 @@ footer {
     color: var(--bg-head-foot);
 }
 
+/* footer */
+
+footer a {
+    color: currentColor;
+}
+
+footer span {
+    color: var(--bg-section);
+}
+
 footer .dr-copyright {
     background-color: var(--bg-copyright);
 }

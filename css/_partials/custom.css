@@ -8,3 +8,13 @@
     margin-bottom: 10px;
     background-color: currentColor;
 }
+
+.dr-rounded-social {
+    border: solid 1px currentColor;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
