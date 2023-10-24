@@ -7,6 +7,10 @@
     --bg-copyright: #2c3e50;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 header {
     background-color: var(--bg-head-foot);
 }
